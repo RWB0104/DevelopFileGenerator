@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4D066DF9195396B880BB0840DB4031D9"
-        "OwnerKey" = "8:_8267038CC2F24B1FB39D11DD022DFAF4"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_8267038CC2F24B1FB39D11DD022DFAF4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -39,14 +33,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4D066DF9195396B880BB0840DB4031D9"
+        "MsmKey" = "8:_B34BA1DD8D7E0EE27BAC4C4207CC76AF"
+        "OwnerKey" = "8:_8267038CC2F24B1FB39D11DD022DFAF4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_8267038CC2F24B1FB39D11DD022DFAF4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B34BA1DD8D7E0EE27BAC4C4207CC76AF"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +67,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -128,43 +136,12 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4D066DF9195396B880BB0840DB4031D9"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_4D066DF9195396B880BB0840DB4031D9"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8632D63FB6464A8BACA6532B3B50176B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9C9709B4B89448E6B35832750BA30868"
             {
             "SourcePath" = "8:..\\DevelopFileGenerator\\Resources\\DevelopFileGenerator.ico"
             "TargetName" = "8:DevelopFileGenerator.ico"
             "Tag" = "8:"
-            "Folder" = "8:_8632D63FB6464A8BACA6532B3B50176B"
+            "Folder" = "8:_BED15583579048748FDF2B87FA58EDA3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -197,6 +174,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B34BA1DD8D7E0EE27BAC4C4207CC76AF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_B34BA1DD8D7E0EE27BAC4C4207CC76AF"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_BED15583579048748FDF2B87FA58EDA3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -240,7 +248,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_BED15583579048748FDF2B87FA58EDA3"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -248,17 +256,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_8632D63FB6464A8BACA6532B3B50176B"
-                    {
-                    "Name" = "8:DevelopFileGenerator"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_EC10AD938DC6490982FE5F280F5DB36F"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
         }
@@ -276,20 +273,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:DevelopFileGeneratorInstaller"
+        "ProductName" = "8:DevelopFileGenerator"
         "ProductCode" = "8:{6610FCD5-2548-41A1-AD02-6ED48D861AA1}"
-        "PackageCode" = "8:{9457BE37-F145-4B65-AA5F-74F34A8B39AC}"
+        "PackageCode" = "8:{F3111D92-5DB8-497A-BFA1-EF82BC50839D}"
         "UpgradeCode" = "8:{B4EF4D84-7272-4EDC-A827-BEA07A22D865}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:RWB"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/RWB0104/DevelopFileGenerator"
-        "Title" = "8:DevelopFileGeneratorInstaller"
+        "Title" = "8:DevelopFileGenerator"
         "Subject" = "8:"
         "ARPCONTACT" = "8:RWB"
         "Keywords" = "8:"
@@ -407,7 +404,7 @@
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_AA0BD2BBFF124D21B14062DA8147222B"
-            "Folder" = "8:_8632D63FB6464A8BACA6532B3B50176B"
+            "Folder" = "8:_BED15583579048748FDF2B87FA58EDA3"
             "WorkingFolder" = "8:_861454E17A5D4C49921FA136A2998D1C"
             "Icon" = "8:_9C9709B4B89448E6B35832750BA30868"
             "Feature" = "8:"
@@ -422,7 +419,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_8267038CC2F24B1FB39D11DD022DFAF4"
             "Folder" = "8:_DA89F531FBC243D6AD98557F71FAA659"
-            "WorkingFolder" = "8:_8632D63FB6464A8BACA6532B3B50176B"
+            "WorkingFolder" = "8:"
             "Icon" = "8:_9C9709B4B89448E6B35832750BA30868"
             "Feature" = "8:"
             }
@@ -697,7 +694,7 @@
                             "ContextData" = "8:1;True=1;False=0"
                             "Attributes" = "3:0"
                             "Setting" = "3:0"
-                            "Value" = "3:1"
+                            "Value" = "3:0"
                             "DefaultValue" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -830,7 +827,7 @@
             "SourcePath" = "8:..\\DevelopFileGenerator\\obj\\Release\\DevelopFileGenerator.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_8632D63FB6464A8BACA6532B3B50176B"
+            "Folder" = "8:_BED15583579048748FDF2B87FA58EDA3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
