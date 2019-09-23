@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("RWB")]
 [assembly: AssemblyProduct("DevelopFileGenerator")]
-[assembly: AssemblyCopyright("Copyright ©  2019 All Rights Reserved.")]
+[assembly: AssemblyCopyright("Copyright © 2019. RWB. All Rights Reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
